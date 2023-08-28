@@ -34,3 +34,6 @@ for x in range (classNo):
   else:
     failNo = failNo + 1
     print("Grade Awarded: Fail \n")
+
+print("Out of the", classNo, "that took the exams: \n",distinctionNo, "got Distinction.\n", meritNo, "got Merit.\n",passNo, "got Pass.\n",failNo, "got Fail.")
+
